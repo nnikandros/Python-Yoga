@@ -6,3 +6,9 @@ def move_zeros(lst):
             lst[j], lst[i] = lst[i], lst[j]  # Partitioning the array
             j += 1
     return lst  # Print 
+
+
+#### more pythonic solution
+
+def move_zeros(array):
+    return sorted(array, key=lambda x: x==0 and type(x) is not bool)
