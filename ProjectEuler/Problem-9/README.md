@@ -1,4 +1,5 @@
-#Special Pythagorean triplet
+
+# Special Pythagorean triplet
 
 [https://projecteuler.net/problem=9]
 
