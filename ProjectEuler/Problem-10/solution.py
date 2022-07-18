@@ -16,10 +16,10 @@ sum(primlistlessthan(2000000))
 ## Alternatively there is a package in sympy that makes it faster
 
 from sympy import nextprime
-up = 2*10**6
+up = 2000000=2*10**6
 p = 2
-s = 0
+sum = 0
 while p<=up:
-    s+=p
+    sum+=p
     p=nextprime(p)
-print(s)
+print(sum)
