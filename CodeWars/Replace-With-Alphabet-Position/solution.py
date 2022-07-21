@@ -8,3 +8,7 @@ def alphabet_position(text):
     lst=list(text)
     p=[str(new_dict[value]) for value in lst if value.isalpha()   ]
     return " ".join(p)
+
+## or just 
+return " ".join([str(new_dict[value]) for value in list(text.lower()) if value.isalpha()   ])
+## after creating the dictionary
