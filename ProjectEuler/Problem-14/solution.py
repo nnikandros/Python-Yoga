@@ -19,3 +19,10 @@ for i in range(10**6):
         max=collatz(i)
         j=i
 print(j)
+
+
+## Another way
+# make a dictionary of integer: number of steps
+newdictmap={k: collatzstep(k) for k in range(1,10**6) }
+# sort the above dictionary by values, descening
+{k: v for k, v in sorted(newdictmap.items(), key=lambda item: item[1], reverse=True)}
