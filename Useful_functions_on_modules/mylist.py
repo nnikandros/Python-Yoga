@@ -1,3 +1,5 @@
+# sympy
+
 isprime(n)              # Test if n is a prime number (True) or not (False).
 primerange(a, b)        # Generate a list of all prime numbers in the range [a, b).
 randprime(a, b)         # Return a random prime number in the range [a, b).
