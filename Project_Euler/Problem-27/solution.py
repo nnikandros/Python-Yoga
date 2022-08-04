@@ -28,4 +28,12 @@ def maxn(lst) :
 listofmaxima=[*map(maxn,cartesianlist)]
 # sort the list of maxima with descending maxima
 sorted(listofmaxima,key=itemgetter(0),reverse=True)
+
+anmax=sorted(listofmaxima,key=itemgetter(0),reverse=True)[0][1] 
+bnmax=sorted(listofmaxima,key=itemgetter(0),reverse=True)[0][2] 
+nmax= sorted(listofmaxima,key=itemgetter(0),reverse=True)[0][0] 
+prod= anmax* bnmax
+ 
+
+print(f"The product of coefficients for the quadratic expression that produces the maximum number of primes is {prod}. The cofficients are {anmax} and {bnmax}. Lastly the maximum for n is {nmax} ")
           
