@@ -40,5 +40,7 @@ import math
 phi = sp.constants.golden
 def fibboclosed(n):
     return math.floor(phi**n/ (math.sqrt(5)))
+
+## just need to fix an overflow error :]   
   
   
