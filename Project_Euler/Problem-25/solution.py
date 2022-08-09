@@ -15,7 +15,7 @@ while n < 10:
 print(no_of_iter,Q[0,1] )  
 
 ##second attempt that works. Adding @cache decorator makes things faster
-
+from functools import *
 @cache
 def fibb(n):
     if n in {0,1}:
