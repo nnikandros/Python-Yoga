@@ -28,7 +28,9 @@ x=1
 while n < 1000:
     n = len(str(fibb(x)))
     x+=1
-print(x-1)    
+print(x-1) 
+ind= x-1    
+f"The index of the first Fibbo number that is has 1000 digits is {ind}""
 
 ## third atttemt that also works. There is a closed formula to calculate the F_n term which also makes things fast
 
